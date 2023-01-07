@@ -15,5 +15,10 @@
 
 
 ## 📚 Conteúdo das Aulas do módulo:
+### 1- Primeiros passos com javascript
+- Variáveis e Operadores;
+- Estruturas Condicionais;
+- Praticando com variáveis, operadores e estruturas condicionais;
+
 
 Em desenvolvimento...
