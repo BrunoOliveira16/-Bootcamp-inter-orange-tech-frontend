@@ -176,9 +176,4 @@ if (tipoPagamento === 1) {
     console.log('Valor incorreto para pagamento, por favor selecione 1, 2, 3, 4 ou 5.')
 }
 
-
-
-
-
-
 /* node ./ORANGE-TECH-MODULO-01/AULA-01/script.js */
