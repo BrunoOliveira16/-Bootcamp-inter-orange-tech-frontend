@@ -5,7 +5,7 @@
 ## 📚 Descrição das Aulas do módulo:
 - Primeiros passos com javascript;
 - Conhecendo funções javascript;
-- Criando objetos e classes em javascript
+- Criando objetos e classes em javascript;
 - Arrays e estruturas de repetição em javascript;
 - Importação e Exportação com javascript;
 - Introdução ao desenvolvimento web com javascript
@@ -19,6 +19,10 @@
 - Variáveis e Operadores;
 - Estruturas Condicionais;
 - Praticando com variáveis, operadores e estruturas condicionais;
+### 2- Conhecendo funções javascript
+- O Poder das Funções na Qualidade do Seu Código
+- Praticando com Funções
 
+### 3- Criando objetos e classes em javascript
 
 Em desenvolvimento...

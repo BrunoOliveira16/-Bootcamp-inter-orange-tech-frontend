@@ -2,8 +2,9 @@
 
 ## 📝 Modulo 01 - Primeiras páginas interativas com JavaScript
 
-### Aula 01 - Variaveis e Operadores
+### Aula 01 - Primeiros passos com javascript
 
+#### Aula 01.1 - Variaveis e Operadores
 #### 1- Desafio:
 Faça um programa para calcular o valor gasto de combustivel em uma viagem.
 
@@ -14,7 +15,7 @@ Você terá 3 variáveis. Sendo elas:
 
 Imprima no console o valor que será gasto de combustivel para realizar esta viagem.
 
-### Aula 02 - Estruturas condicionais
+### Aula 01.2 - Estruturas condicionais
 
 #### 1- Desafio:
 Faça um programa para calcular o valor gasto de combustivel em uma viagem.
@@ -28,7 +29,7 @@ Você terá 5 variáveis. Sendo elas:
 
 Imprima no console o valor que será gasto de combustivel para realizar esta viagem.
 
-### Aula 03 - Praticando com Variáveis, Operadores e Estruturas Condicionais
+### Aula 01.3 - Praticando com Variáveis, Operadores e Estruturas Condicionais
 1) Faça um algoritimo que dado as 3 notas tiradas por um aluno em um semestre da faculdade calcule e imprima a sua média e a sua classificação conforme a tabela abaixo.
 
 Média = (nota 1 + nota 2 + nota 3) / 3;
