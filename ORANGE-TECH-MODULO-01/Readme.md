@@ -60,8 +60,4 @@
 ### 8- Dominando o Protocolo HTTP e Integrando com a PokeAPI
 #### 8.1- Entendendo o funcionamento do protocolo HTTP
 - Introdução a APIs;
-
-
-
-
 Em desenvolvimento...
