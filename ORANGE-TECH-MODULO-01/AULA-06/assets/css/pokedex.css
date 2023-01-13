@@ -29,7 +29,7 @@
 
 .pokemon .name {
     margin-bottom: 0;
-    
+
     color: #FFFFFF;
     text-transform: capitalize;
     letter-spacing: 0.1rem;
@@ -68,6 +68,24 @@
     height: 90px;
 }
 
+.pagination {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 1rem;
+}
+
+.pagination button {
+    background-color: #6c79db;
+    color: #FFFFFF;
+    padding: .5rem 1rem;
+    margin: .25rem 0;
+    font-size: 1rem;
+    border: none;
+    border-radius: 1rem;
+}
 
 @media screen and (min-width: 380px){
     .pokemons {
