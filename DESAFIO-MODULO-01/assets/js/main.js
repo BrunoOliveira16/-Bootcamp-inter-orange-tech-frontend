@@ -12,29 +12,32 @@ function loadPokemonItens(offset, limit) {
         const newHtml = pokemons.map((pokemon) =>
             `
             <li class="pokemon ${pokemon.type}">
-                <span class="number">#${pokemon.number}</span>
-                <span class="name">${pokemon.name}</span> 
-
-                <div class="detail">
-                    <ol class="types">
-                        ${pokemon.types.map((type) => `<li class="type ${type}-icon">${type}</li>`).join('')}
-                    </ol>
+                <div class="detail-image">
                     <img src="${pokemon.photo}" alt="${pokemon.name}">
                 </div>
+                <div class="detail-text">
+                    <span class="name">${pokemon.name}</span>
+                    <span class="number">#${pokemon.number}</span> 
+                </div>
+                <div class="detail-types">
+                    <ol class="types">
+                        ${pokemon.types.map((type) => `<li class="type ${type}">${type}</li>`).join('')}
+                    </ol>
+                </div>
 
-                <div class="base-Info">
-                    <p>informações</p>
-                    <p>Height: ${(pokemon.height)/10}m | Weight: ${(pokemon.weight)/10}Kg</p>
-                    <p></p>
-                    <p>Habilidades:</p>
-                    ${pokemon.abilities.map((ability) => `<span>${ability}</span>`).join(' | ')}
-                    <p>Base Stats</p>
-                    <p>HP   : ${pokemon.hp}</p>
-                    <p>ATK  : ${pokemon.atk}</p>
-                    <p>DEF  : ${pokemon.def}</p>
-                    <p>SATK : ${pokemon.satk}</p>
-                    <p>SDEF : ${pokemon.sdef}</p>
-                    <p>SPD  : ${pokemon.spd}</p>
+                <div class="detail-Info">
+                    <div class="detail-info-measure">
+                        <p>Height: ${(pokemon.height)/10}m</p>
+                        <p>Weight: ${(pokemon.weight)/10}Kg</p>
+                    </div>
+
+                    <p id="title-ability">Abilities:</p>
+                    <div class="detail-info-ability">
+                        ${pokemon.abilities.map((ability) => `<p>${ability}</p>`).join('')}
+                    </div>
+                </div>
+                <div class="detail-more-info">
+                    <h2 class="${pokemon.type}">More Info</h2>
                 </div>
             </li>
             `
@@ -43,6 +46,15 @@ function loadPokemonItens(offset, limit) {
      })
 }
 
+/*
+ <p>Base Stats</p>
+                    <p>HP   : ${pokemon.hp}</p>
+                    <p>ATK  : ${pokemon.atk}</p>
+                    <p>DEF  : ${pokemon.def}</p>
+                    <p>SATK : ${pokemon.satk}</p>
+                    <p>SDEF : ${pokemon.sdef}</p>
+                    <p>SPD  : ${pokemon.spd}</p>
+*/
 loadPokemonItens(offset, limit)
 
 loadMoreButton.addEventListener('click', ()=> {
@@ -62,6 +74,7 @@ loadMoreButton.addEventListener('click', ()=> {
 const btnGen01 = document.getElementById('btn_gen_01')
 const btnGen02 = document.getElementById('btn_gen_02')
 const btnGen03 = document.getElementById('btn_gen_03')
+const btnGen04 = document.getElementById('btn_gen_04')
 
 btnGen01.addEventListener('click', (offset, maxRecords) => {
     pokemonList.innerHTML = ''
@@ -86,4 +99,13 @@ btnGen03.addEventListener('click', (offset, maxRecords) => {
     loadPokemonItens(offset, maxRecords)
     loadMoreButton.parentElement.removeChild(loadMoreButton)
 })
+
+btnGen04.addEventListener('click', (offset, maxRecords) => {
+    pokemonList.innerHTML = ''
+    offset = 386
+    maxRecords = 108
+    loadPokemonItens(offset, maxRecords)
+    loadMoreButton.parentElement.removeChild(loadMoreButton)
+})
+
 
