@@ -2,9 +2,8 @@ const pokemonList = document.getElementById('pokemonList')
 const loadMoreButton = document.getElementById('loadMoreButton')
 
 let maxRecords = 151
-let limit = 12
-let offset = 0;
-
+let limit = 15
+let offset = 0
 
 
 function loadPokemonItens(offset, limit) {
@@ -18,14 +17,14 @@ function loadPokemonItens(offset, limit) {
 
                 <div class="detail">
                     <ol class="types">
-                        ${pokemon.types.map((type) => `<li class="type ${type}">${type}</li>`).join('')}
+                        ${pokemon.types.map((type) => `<li class="type ${type}-icon">${type}</li>`).join('')}
                     </ol>
                     <img src="${pokemon.photo}" alt="${pokemon.name}">
                 </div>
 
                 <div class="base-Info">
                     <p>informações</p>
-                    <p>Height: ${pokemon.height} | Weight: ${pokemon.weight}</p>
+                    <p>Height: ${(pokemon.height)/10}m | Weight: ${(pokemon.weight)/10}Kg</p>
                     <p></p>
                     <p>Habilidades:</p>
                     ${pokemon.abilities.map((ability) => `<span>${ability}</span>`).join(' | ')}
@@ -61,13 +60,30 @@ loadMoreButton.addEventListener('click', ()=> {
 })  
 
 const btnGen01 = document.getElementById('btn_gen_01')
+const btnGen02 = document.getElementById('btn_gen_02')
+const btnGen03 = document.getElementById('btn_gen_03')
 
+btnGen01.addEventListener('click', (offset, maxRecords) => {
+    pokemonList.innerHTML = ''
+    offset = 0
+    maxRecords = 151
+    loadPokemonItens(offset, maxRecords)
+    loadMoreButton.parentElement.removeChild(loadMoreButton)
+})
 
-btnGen01.addEventListener('click',(offset, limit)=>{
+btnGen02.addEventListener('click', (offset, maxRecords) => {
     pokemonList.innerHTML = ''
     offset = 151
-    limit = 15
-    
-    loadPokemonItens(offset, limit)
-    loadMoreButton(offset, limit)
+    maxRecords = 100
+    loadPokemonItens(offset, maxRecords)
+    loadMoreButton.parentElement.removeChild(loadMoreButton)
 })
+
+btnGen03.addEventListener('click', (offset, maxRecords) => {
+    pokemonList.innerHTML = ''
+    offset = 251
+    maxRecords = 135
+    loadPokemonItens(offset, maxRecords)
+    loadMoreButton.parentElement.removeChild(loadMoreButton)
+})
+

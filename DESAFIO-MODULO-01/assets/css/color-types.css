@@ -1,5 +1,15 @@
-.normal {
+.normal, .normal-icon {
     background-color: #a6a877 ;
+}
+.normal-icon::before {
+    content: url(../images/normal.svg);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.normal-icon img {
+    background-color: #FFFFFF;
 }
 
 .grass {
