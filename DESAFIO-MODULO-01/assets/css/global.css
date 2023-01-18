@@ -30,6 +30,8 @@ header {
 .conteiner-buttons {
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
     gap: 1rem;
     padding: 1rem;
 }

@@ -75,6 +75,12 @@ const btnGen01 = document.getElementById('btn_gen_01')
 const btnGen02 = document.getElementById('btn_gen_02')
 const btnGen03 = document.getElementById('btn_gen_03')
 const btnGen04 = document.getElementById('btn_gen_04')
+const btnGen05 = document.getElementById('btn_gen_05')
+const btnGen06 = document.getElementById('btn_gen_06')
+const btnGen07 = document.getElementById('btn_gen_07')
+const btnGen08 = document.getElementById('btn_gen_08')
+const btnGen09 = document.getElementById('btn_gen_09')
+const btnGenArceus = document.getElementById('btn_gen_arceus')
 
 btnGen01.addEventListener('click', (offset, maxRecords) => {
     pokemonList.innerHTML = ''
@@ -108,4 +114,50 @@ btnGen04.addEventListener('click', (offset, maxRecords) => {
     loadMoreButton.parentElement.removeChild(loadMoreButton)
 })
 
+btnGen05.addEventListener('click', (offset, maxRecords) => {
+    pokemonList.innerHTML = ''
+    offset = 494
+    maxRecords = 155
+    loadPokemonItens(offset, maxRecords)
+    loadMoreButton.parentElement.removeChild(loadMoreButton)
+})
 
+btnGen06.addEventListener('click', (offset, maxRecords) => {
+    pokemonList.innerHTML = ''
+    offset = 649
+    maxRecords = 72
+    loadPokemonItens(offset, maxRecords)
+    loadMoreButton.parentElement.removeChild(loadMoreButton)
+})
+
+btnGen07.addEventListener('click', (offset, maxRecords) => {
+    pokemonList.innerHTML = ''
+    offset = 721
+    maxRecords = 88
+    loadPokemonItens(offset, maxRecords)
+    loadMoreButton.parentElement.removeChild(loadMoreButton)
+})
+
+btnGen08.addEventListener('click', (offset, maxRecords) => {
+    pokemonList.innerHTML = ''
+    offset = 809
+    maxRecords = 89
+    loadPokemonItens(offset, maxRecords)
+    loadMoreButton.parentElement.removeChild(loadMoreButton)
+})
+
+/*btnGen09.addEventListener('click', (offset, maxRecords) => {
+    pokemonList.innerHTML = ''
+    offset = 905
+    maxRecords = 103
+    loadPokemonItens(offset, maxRecords)
+    loadMoreButton.parentElement.removeChild(loadMoreButton)
+})*/
+
+btnGenArceus.addEventListener('click', (offset, maxRecords) => {
+    pokemonList.innerHTML = ''
+    offset = 898
+    maxRecords = 7
+    loadPokemonItens(offset, maxRecords)
+    loadMoreButton.parentElement.removeChild(loadMoreButton)
+})
