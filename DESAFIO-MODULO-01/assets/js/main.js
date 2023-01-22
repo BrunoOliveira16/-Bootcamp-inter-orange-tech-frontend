@@ -37,7 +37,31 @@ function loadPokemonItens(offset, limit) {
                     </div>
                 </div>
                 <div class="detail-more-info">
-                    <h2 class="${pokemon.type}">More Info</h2>
+                    <h2 class="${pokemon.type}">Base Status</h2>
+                    <div class="detail-status">
+                        <span class="span ${pokemon.type}">HP</span>    
+                        <progress class="bg-progress-value bg-progress ${pokemon.type}" value="${pokemon.hp}" max="252"></progress><span class="span-value ${pokemon.type}">${pokemon.hp}</span>
+                    </div>
+                    <div class="detail-status">
+                        <span class="span ${pokemon.type}">ATK</span>    
+                        <progress class="bg-progress-value bg-progress ${pokemon.type}" value="${pokemon.atk}" max="252"></progress><span class="span-value ${pokemon.type}">${pokemon.atk}</span>
+                    </div>
+                    <div class="detail-status">
+                        <span class="span ${pokemon.type}">DEF</span>    
+                        <progress class="bg-progress-value bg-progress ${pokemon.type}" value="${pokemon.def}" max="252"></progress><span class="span-value ${pokemon.type}">${pokemon.def}</span>
+                    </div>
+                    <div class="detail-status">
+                        <span class="span ${pokemon.type}">SATK</span>    
+                        <progress class="bg-progress-value bg-progress ${pokemon.type}" value="${pokemon.satk}" max="252"></progress><span class="span-value ${pokemon.type}">${pokemon.satk}</span>
+                    </div>
+                    <div class="detail-status">
+                        <span class="span ${pokemon.type}">SDEF</span>    
+                        <progress class="bg-progress-value bg-progress ${pokemon.type}" value="${pokemon.sdef}" max="252"></progress><span class="span-value ${pokemon.type}">${pokemon.sdef}</span>
+                    </div>
+                    <div class="detail-status">
+                        <span class="span ${pokemon.type}">SPD</span>    
+                        <progress class="bg-progress-value bg-progress ${pokemon.type}" value="${pokemon.spd}" max="252"></progress><span class="span-value ${pokemon.type}">${pokemon.spd}</span>
+                    </div>
                 </div>
             </li>
             `

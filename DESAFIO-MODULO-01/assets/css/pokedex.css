@@ -125,8 +125,10 @@
     width: 100%;
     margin: 1rem 0 0;
     padding: .5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
 
-    color: #6c79db;
     background-color: #FFFFFF;
 
     border-bottom-left-radius: .8rem;
@@ -136,10 +138,15 @@
 .detail-more-info h2 {
     margin: 0;
     padding: 0;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     text-align: center;
-    text-shadow: 1px 2px 1px gray;
     background-color: transparent;
+}
+
+.detail-status {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
 .pagination {
