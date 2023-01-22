@@ -3,6 +3,11 @@
     box-sizing: border-box;
 }
 
+html {
+    background: url(../images/Pokeball-wallpaper.jpg);
+    background-attachment: fixed;
+}
+
 body {
     width: 100%;
     max-width: 1440px;
