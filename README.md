@@ -40,27 +40,27 @@ Estou cursando atualmente e os conteúdos estão em desenvolvimento...
     </tr>
     <tr>
         <td align="center">Somando Múltiplos</td>
-        <td align="center"><a href="#">Código</a></td>
+        <td align="center"><a href="https://github.com/BrunoOliveira16/Bootcamp-inter-orange-tech-frontend/tree/main/ORANGE-TECH-MODULO-02/DESAFIO-DE-CODIGO-01">Código</a></td>
         <td align="center">✅</td>
     </tr>
     <tr>
         <td align="center">FizzBuzz</td>
-        <td align="center"><a href="#">Código</a></td>
+        <td align="center"><a href="https://github.com/BrunoOliveira16/Bootcamp-inter-orange-tech-frontend/tree/main/ORANGE-TECH-MODULO-02/DESAFIO-DE-CODIGO-02">Código</a></td>
         <td align="center">✅</td>
     </tr>
     <tr>
         <td align="center">Uma Chamada Recursiva</td>
-        <td align="center"><a href="#">Código</a></td>
+        <td align="center"><a href="https://github.com/BrunoOliveira16/Bootcamp-inter-orange-tech-frontend/tree/main/ORANGE-TECH-MODULO-02/DESAFIO-DE-CODIGO-03">Código</a></td>
         <td align="center">✅</td>
     </tr>
     <tr>
         <td align="center">Os Números são Iguais</td>
-        <td align="center"><a href="#">Código</a></td>
+        <td align="center"><a href="https://github.com/BrunoOliveira16/Bootcamp-inter-orange-tech-frontend/tree/main/ORANGE-TECH-MODULO-02/DESAFIO-DE-CODIGO-04">Código</a></td>
         <td align="center">✅</td>
     </tr>
     <tr>
         <td align="center">Busca Sequencial</td>
-        <td align="center"><a href="#">Código</a></td>
+        <td align="center"><a href="https://github.com/BrunoOliveira16/Bootcamp-inter-orange-tech-frontend/tree/main/ORANGE-TECH-MODULO-02/DESAFIO-DE-CODIGO-05">Código</a></td>
         <td align="center">✅</td>
     </tr>
 </table>
@@ -86,8 +86,8 @@ Estou cursando atualmente e os conteúdos estão em desenvolvimento...
     </tr>
     <tr>
         <td>Construindo uma Pokédex com JavaScript</td>
-        <td align="center"><a href="#">Código</a></td>
-        <td align="center"><a href="#">Link</a></td>
+        <td align="center"><a href="https://github.com/BrunoOliveira16/Bootcamp-inter-orange-tech-frontend/tree/main/ORANGE-TECH-MODULO-01/DESAFIO-DE-PROJETO">Código</a></td>
+        <td align="center"><a href="https://brunooliveira16.github.io/Formacao-JavaScript-Developer-DIO/TRILHA-JAVASCRIPT-MODULO-02/DESAFIO-DE-PROJETO/index.html">Link</a></td>
         <td align="center">✅</td>
     </tr>
 </table>
