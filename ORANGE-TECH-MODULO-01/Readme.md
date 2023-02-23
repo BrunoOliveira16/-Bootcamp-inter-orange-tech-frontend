@@ -1,8 +1,9 @@
-## BOOTCAMP INTER ORANGE TECH + FRONT-END - DIO._(Digital Innovation One)
+# 📌 **BOOTCAMP INTER ORANGE TECH + FRONT-END - DIO**
+## 📝 **Modulo 01 - Primeiras páginas interativas com JavaScript**
 
-## 📝 Modulo 01 - Primeiras páginas interativas com JavaScript
+<br>
 
-## 📚 Descrição das Aulas do módulo:
+## 📎 **Sumário:**
 - Primeiros passos com javascript;
 - Conhecendo funções javascript;
 - Criando objetos e classes em javascript;
@@ -13,51 +14,3 @@
 - Dominando o Protocolo HTTP e Integrando com a PokeAPI;
 - Construindo uma Pokédex com JavaScript
 
-
-## 📚 Conteúdo das Aulas do módulo:
-### 1- Primeiros passos com javascript
-- Variáveis e Operadores;
-- Estruturas Condicionais;
-- Praticando com variáveis, operadores e estruturas condicionais;
-### 2- Conhecendo funções javascript
-- O Poder das Funções na Qualidade do Seu Código;
-- Praticando com Funções;
-
-### 3- Criando objetos e classes em javascript
-- Entendendo Objetos e Classes;
-- Praticando com Objetos e Classes;
-
-### 4- Arrays e estruturas de repetição em javascript
-- Arrays e Estruturas de Repetição;
-- Praticando Estruturas de Repetição;
-
-### 5- Importação e Exportação com JavaScript
-- Desvendando as Funções "gets" e "print" dos Desafios de Código;
-- Praticando os Conceitos de Importação e Exportação;
-
-### 6- Introdução ao Desenvolvimento Web com JavaScript
-- Introdução;
-- Configuração do ambiente;
-- Protocolo cliente servidor;
-- Introdução ao HTML;
-- Introdução ao CSS;
-- Introdução ao JavaScript voltando para web;
-
-### 7 - Criando um Projeto com HTML/CSS para Listagem de Pokémon
-#### 7.1 - Configurações gerais do projeto
-- Adicionando normalize css no projeto;
-- Organizando o projeto;
-- Adicionando a font Roboto no projeto;
-
-#### 7.2 - Estilização da listagem de pokemon
-- Estilização inicial;
-- Estilização da listagem de Pokémon;
-- Adicionando a imagem do Pokémon;
-- Adicionando os tipos dos Pokémon e finalizando o layout da imagem;
-- Tornando nosso layout responsivo;
-- Separando os estilos;
-
-### 8- Dominando o Protocolo HTTP e Integrando com a PokeAPI
-#### 8.1- Entendendo o funcionamento do protocolo HTTP
-- Introdução a APIs;
-Em desenvolvimento...
